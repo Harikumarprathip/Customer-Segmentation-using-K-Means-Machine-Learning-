@@ -1,0 +1,205 @@
+CDACL-002 – Customer Segmentation
+Customer Segmentation and Shopping Trend Analysis Using SQL,
+Power BI and Orange Data Mining
+
+
+
+Project Overview
+This project analyzes the shopping behavior of 3,900 customers from a U.S. retail shopping dataset. The
+main goal is to understand customer purchasing patterns, identify which products need discounts, study
+spending based on age, payment methods, seasons, and locations, and group customers into similar
+categories using K-Means Clustering. The results help businesses improve sales, customer satisfaction,
+and marketing strategies.
+
+
+
+
+Objectives
+     • Analyze customer shopping behavior.
+     • Find product categories where discounts should be applied.
+     • Study spending based on age and payment method.
+     • Analyze seasonal and location-wise sales.
+     • Segment customers into 3 groups using K-Means.
+     • Recommend marketing campaigns for each customer group.
+
+
+
+
+Tools Used
+     • MySQL – Data Analysis using SQL
+     • Power BI – Dashboard and Visualization
+     • Orange Data Mining – Customer Segmentation
+     • Dataset (CSV) – Shopping Data
+
+
+
+
+Simple SQL Analysis
+SQL is used to answer business questions such as:
+
+
+     • Total Customers
+     • Total Sales
+     • Average Purchase Amount
+
+
+
+
+                                                    1
+
+     • Sales by Category
+
+     • Age-wise Spending
+     • Payment Method Analysis
+     • Season-wise Sales
+     • Location-wise Sales
+     • Discount Analysis
+     • Subscription Status
+
+These results are used to create Power BI dashboards.
+
+
+
+
+Power BI Dashboard
+The dashboard includes:
+
+
+     • Total Customers
+     • Total Revenue
+     • Average Purchase
+     • Sales by Category
+     • Sales by Season
+     • Sales by Location
+     • Payment Method
+     • Age-wise Spending
+     • Discount Applied
+     • Subscription Status
+
+The dashboard helps managers quickly understand customer shopping trends.
+
+
+
+
+Customer Segmentation (K-Means)
+K-Means is a Machine Learning algorithm used to group customers with similar shopping behavior.
+
+
+Features Used
+
+     • Age
+     • Purchase Amount
+     • Previous Purchases
+     • Review Rating
+
+How K-Means Works
+
+    1. Load the shopping dataset.
+    2. Select important customer features.
+    3. Normalize the data.
+    4. Choose K = 3 clusters.
+
+
+
+
+                                                    2
+
+    5. Randomly create 3 cluster centers (centroids).
+
+    6. Assign each customer to the nearest cluster.
+    7. Update the cluster centers.
+    8. Repeat until the clusters no longer change.
+    9. The final result is 3 customer groups.
+
+
+
+
+Orange Data Mining Workflow
+
+  File
+      │
+     ▼
+  Select Columns
+      │
+     ▼
+  Normalize
+      │
+     ▼
+  K-Means
+   ├──► Data Table
+   ├──► Scatter Plot
+   └──► Silhouette Plot
+
+
+
+
+Customer Clusters
+Cluster 1 – Budget Customers
+
+     • Low spending
+     • Use discounts frequently
+     • Buy low-cost products
+
+Marketing: Coupons, flash sales, and bundle offers.
+
+
+Cluster 2 – Premium Customers
+
+     • High spending
+     • Loyal customers
+     • Frequent purchases
+
+Marketing: VIP membership, reward points, and personalized offers.
+
+
+
+
+                                                        3
+
+Cluster 3 – Seasonal Customers
+
+     • Shop mainly during festivals or special seasons
+     • Medium spending
+     • Use promotional offers
+
+Marketing: Festival discounts, seasonal offers, and free shipping.
+
+
+
+
+Dominant Factors
+The main factors that influence customer segmentation are:
+
+
+     • Purchase Amount
+     • Previous Purchases
+     • Age
+     • Review Rating
+     • Season
+     • Payment Method
+
+
+
+
+Business Benefits
+     • Understand customer behavior.
+     • Identify valuable customers.
+     • Improve marketing strategies.
+     • Increase customer loyalty.
+     • Optimize discounts.
+     • Improve sales and business growth.
+
+
+
+
+Final Conclusion
+This project successfully analyzes customer shopping behavior using SQL, visualizes insights with Power BI,
+and groups customers using K-Means Clustering in Orange Data Mining. Three customer segments—
+Budget Customers, Premium Customers, and Seasonal Customers—are identified based on shopping
+trends. The analysis helps businesses make better decisions, create personalized marketing campaigns,
+improve customer satisfaction, and increase overall sales.
+
+
+
+
+                                                     4
